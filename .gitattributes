@@ -1,0 +1,14 @@
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.glb binary
+*.pdf binary
+*.docx binary
+
+# Unity's serializer emits trailing spaces for empty YAML values.
+*.asset whitespace=-blank-at-eol
+*.meta whitespace=-blank-at-eol
+*.mat whitespace=-blank-at-eol
+*.unity whitespace=-blank-at-eol
